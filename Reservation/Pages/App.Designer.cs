@@ -1,0 +1,425 @@
+﻿namespace Reservation.Pages
+{
+    partial class App
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnStat = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnDeconnecter = new System.Windows.Forms.Button();
+            this.btnListe = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnAjout = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnAcceuil = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel6.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(60)))));
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1011, 525);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::Reservation.Properties.Resources.FB_IMG_16843448376808549;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.label7);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(245, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(766, 525);
+            this.panel5.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Trebuchet MS", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(207)))), ((int)(((byte)(250)))));
+            this.label7.Location = new System.Drawing.Point(165, 55);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(467, 119);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "study.net";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Gray;
+            this.label6.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(123, 198);
+            this.label6.Margin = new System.Windows.Forms.Padding(30, 10, 10, 30);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(523, 29);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "passer beaucoups de temps sur vôtre cahier .";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Gray;
+            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(123, 164);
+            this.label5.Margin = new System.Windows.Forms.Padding(30, 10, 10, 30);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(516, 29);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "pouvoir stocker vos données , sans ecrire et ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Gray;
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(112, 129);
+            this.label4.Margin = new System.Windows.Forms.Padding(30, 10, 10, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(536, 29);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Nôtre but est de vous faciliter les tâches et de";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Gray;
+            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(112, 95);
+            this.label3.Margin = new System.Windows.Forms.Padding(30, 10, 10, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(544, 29);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "les notes des élèves dans vôtre etablissement .";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Gray;
+            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(92, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(30, 10, 10, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(585, 29);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Bienvenue sur study.net , on va vous aider à gerer ";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(232, 525);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBox6);
+            this.panel4.Controls.Add(this.btnStat);
+            this.panel4.Controls.Add(this.pictureBox5);
+            this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Controls.Add(this.btnDeconnecter);
+            this.panel4.Controls.Add(this.btnListe);
+            this.panel4.Controls.Add(this.pictureBox3);
+            this.panel4.Controls.Add(this.btnAjout);
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Controls.Add(this.btnAcceuil);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 176);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(232, 349);
+            this.panel4.TabIndex = 1;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Reservation.Properties.Resources._6;
+            this.pictureBox6.Location = new System.Drawing.Point(24, 193);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 41);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 9;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnStat
+            // 
+            this.btnStat.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnStat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStat.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStat.ForeColor = System.Drawing.Color.White;
+            this.btnStat.Location = new System.Drawing.Point(0, 193);
+            this.btnStat.Margin = new System.Windows.Forms.Padding(10);
+            this.btnStat.Name = "btnStat";
+            this.btnStat.Size = new System.Drawing.Size(232, 41);
+            this.btnStat.TabIndex = 8;
+            this.btnStat.Text = "Statistics";
+            this.btnStat.UseVisualStyleBackColor = true;
+            this.btnStat.Click += new System.EventHandler(this.btnStat_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Reservation.Properties.Resources._5;
+            this.pictureBox5.Location = new System.Drawing.Point(24, 254);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 41);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 7;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Reservation.Properties.Resources._7;
+            this.pictureBox4.Location = new System.Drawing.Point(24, 132);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 41);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // btnDeconnecter
+            // 
+            this.btnDeconnecter.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnDeconnecter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeconnecter.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeconnecter.ForeColor = System.Drawing.Color.White;
+            this.btnDeconnecter.Location = new System.Drawing.Point(0, 254);
+            this.btnDeconnecter.Margin = new System.Windows.Forms.Padding(10);
+            this.btnDeconnecter.Name = "btnDeconnecter";
+            this.btnDeconnecter.Size = new System.Drawing.Size(232, 41);
+            this.btnDeconnecter.TabIndex = 5;
+            this.btnDeconnecter.Text = "Deconnecter";
+            this.btnDeconnecter.UseVisualStyleBackColor = true;
+            this.btnDeconnecter.Click += new System.EventHandler(this.btnDeconnecter_Click);
+            // 
+            // btnListe
+            // 
+            this.btnListe.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnListe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListe.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListe.ForeColor = System.Drawing.Color.White;
+            this.btnListe.Location = new System.Drawing.Point(0, 132);
+            this.btnListe.Margin = new System.Windows.Forms.Padding(10);
+            this.btnListe.Name = "btnListe";
+            this.btnListe.Size = new System.Drawing.Size(232, 41);
+            this.btnListe.TabIndex = 4;
+            this.btnListe.Text = "Liste etudiant";
+            this.btnListe.UseVisualStyleBackColor = true;
+            this.btnListe.Click += new System.EventHandler(this.btnListe_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Reservation.Properties.Resources._9;
+            this.pictureBox3.Location = new System.Drawing.Point(24, 71);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 41);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnAjout
+            // 
+            this.btnAjout.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAjout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAjout.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjout.ForeColor = System.Drawing.Color.White;
+            this.btnAjout.Location = new System.Drawing.Point(0, 71);
+            this.btnAjout.Margin = new System.Windows.Forms.Padding(10);
+            this.btnAjout.Name = "btnAjout";
+            this.btnAjout.Size = new System.Drawing.Size(232, 41);
+            this.btnAjout.TabIndex = 2;
+            this.btnAjout.Text = "Ajout etudiant";
+            this.btnAjout.UseVisualStyleBackColor = true;
+            this.btnAjout.Click += new System.EventHandler(this.btnAjout_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Image = global::Reservation.Properties.Resources._8;
+            this.pictureBox2.Location = new System.Drawing.Point(24, 10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 41);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnAcceuil
+            // 
+            this.btnAcceuil.BackColor = System.Drawing.Color.White;
+            this.btnAcceuil.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAcceuil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcceuil.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcceuil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(207)))), ((int)(((byte)(250)))));
+            this.btnAcceuil.Location = new System.Drawing.Point(0, 10);
+            this.btnAcceuil.Margin = new System.Windows.Forms.Padding(10);
+            this.btnAcceuil.Name = "btnAcceuil";
+            this.btnAcceuil.Size = new System.Drawing.Size(232, 41);
+            this.btnAcceuil.TabIndex = 0;
+            this.btnAcceuil.Text = "Acceuil";
+            this.btnAcceuil.UseVisualStyleBackColor = false;
+            this.btnAcceuil.Click += new System.EventHandler(this.btnAcceuil_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(232, 170);
+            this.panel3.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(50, 120);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 35);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "study.net";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Reservation.Properties.Resources._1;
+            this.pictureBox1.Location = new System.Drawing.Point(56, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.label6);
+            this.panel6.Controls.Add(this.label4);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Location = new System.Drawing.Point(-7, 247);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(785, 278);
+            this.panel6.TabIndex = 13;
+            // 
+            // App
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1011, 525);
+            this.Controls.Add(this.panel1);
+            this.Name = "App";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "App";
+            this.panel1.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnAcceuil;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btnAjout;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button btnDeconnecter;
+        private System.Windows.Forms.Button btnListe;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button btnStat;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel6;
+
+    }
+}
